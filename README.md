@@ -15,7 +15,7 @@ To my knowledge, there's no easier way to do this for a couple of reasons:
 ## How do I run it?
 I removed my API URL from the code. My API was hosted on PythonAnywhere for free. You can follow this guide to set up a Flask app in PythonAnywhere: https://medium.com/swlh/how-to-host-your-flask-app-on-pythonanywhere-for-free-df8486eb6a42
 
-The Flask API code is here: [```python_flask_formatter.py```](https://github.com/dliu27/LeetcodePythonFormatter/blob/main/python_flask_formatter.py)
+The Flask API code is here in this repository: [```python_flask_formatter.py```](https://github.com/dliu27/LeetcodePythonFormatter/blob/main/python_flask_formatter.py)
 
 All the CORS and JSON stuff should be handled for you.
 
