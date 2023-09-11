@@ -34,7 +34,7 @@ Once you have this ready, replace ```const apiUrl = ''``` with your API URL (htt
 2. Open Google Chrome and go to ```chrome://extensions/```
 3. At the top right, turn on Developer mode
 4. Click Load unpacked
-5. Find and select extension folder (one level above manifest.json)
+5. Find and select extension folder (LeetcodePythonFormatterExtension, one level above manifest.json)
 6. Go to leetcode.com, open Developer Tools (CTRL+SHIFT+I) and verify the console says 'Content script loaded.' indicating the Chrome Extension loaded successfully
 
 
