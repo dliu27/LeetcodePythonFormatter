@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "LeetcodePythonFormatter",
+    "version": "1.0",
+    "description": "Adds Python formatting (CTRL+ALT+F) to Leetcode.",
+    "permissions": ["activeTab", "nativeMessaging"],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.leetcode.com/*",
+          "https://*.leetcode.cn/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "matches": [
+          "https://*.leetcode.com/*",
+          "https://*.leetcode.cn/*"
+        ],
+        "resources": [
+            "payload/clearScript.js",
+            "payload/formatScript.js"
+        ]
+      }
+    ]
+  }
+  
