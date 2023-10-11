@@ -2,6 +2,8 @@
 
 A working and least effort (in my eyes) solution for formatting Python code in Leetcode. 
 
+Story: I wanted to create a Python formatter for Leetcode, as it's not a feature and no one has done it before (lack of JS libraries)
+
 Involves a Chrome Extension that adds a hotkey (CTRL-ALT-F) to Leetcode.com. Upon clicking the hotkey, the Chrome Extension will send a POST request to a Flask API hosted on the cloud, with the body being the Python code in the Leetcode.com editor. This Flask API will take the code submitted and return a JSON response containing the formatted code using ```autopep8```. The Chrome Extension will receive the code and replace the contents of the Leetcode.com editor with the formatted code.
 
 There's also a hotkey (CTRL-SHIFT-E) for clearing the Leetcode.com instantly so you don't see your previous answers.
